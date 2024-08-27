@@ -1,0 +1,516 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.28f1 (6bae5ce6b222) revision 7056988'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 32382 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/unityproject/3D_Ball
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+60302
+Successfully changed project path to: D:/unityproject/3D_Ball
+D:/unityproject/3D_Ball
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26960] Host "[IP] 10.12.23.69 [Port] 0 [Flags] 2 [Guid] 938071849 [EditorId] 938071849 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-C6PBRGT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [26960] Host "[IP] 10.12.23.69 [Port] 0 [Flags] 2 [Guid] 938071849 [EditorId] 938071849 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-C6PBRGT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 64.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.28f1 (6bae5ce6b222)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unityproject/3D_Ball/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6400 (ID=0x743f)
+    Vendor:   ATI
+    VRAM:     4050 MB
+    Driver:   31.0.22052.2001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004218 seconds.
+- Loaded All Assemblies, in  0.483 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.149 seconds
+Domain Reload Profiling: 631ms
+	BeginReloadAssembly (80ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (117ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (244ms)
+		LoadAssemblies (79ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (243ms)
+			TypeCache.Refresh (242ms)
+				TypeCache.ScanAssembly (232ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (149ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (116ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (81ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.451 seconds
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.342 seconds
+Domain Reload Profiling: 793ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (294ms)
+		LoadAssemblies (250ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (97ms)
+				TypeCache.ScanAssembly (83ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (342ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (257ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (205ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (58.2 KB). Loaded Objects now: 3950.
+Memory consumption went from 134.9 MB to 134.8 MB.
+Total: 2.660500 ms (FindLiveObjects: 0.228800 ms CreateObjectMapping: 0.053300 ms MarkObjects: 2.258400 ms  DeleteObjects: 0.119100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 598528.055413 seconds.
+  path: Assets/Model/HQP STUDIOS/Food Pack - Low Poly Sweets/Prefabs/Donuts/Chocolate Donuts/Chocolate_Donut_Sprinkles_1.prefab
+  artifactKey: Guid(08a13979856b4a44d969e7ecba3456ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/HQP STUDIOS/Food Pack - Low Poly Sweets/Prefabs/Donuts/Chocolate Donuts/Chocolate_Donut_Sprinkles_1.prefab using Guid(08a13979856b4a44d969e7ecba3456ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9416f68a905d939df88c703e4500cf56') in 0.077009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 23.552129 seconds.
+  path: Assets/Model/HQP STUDIOS/Food Pack - Low Poly Sweets/Prefabs/Candies/Chocolates/Chocolate_Bar_3.prefab
+  artifactKey: Guid(b296af82ce795a64d85bf642dba9bd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/HQP STUDIOS/Food Pack - Low Poly Sweets/Prefabs/Candies/Chocolates/Chocolate_Bar_3.prefab using Guid(b296af82ce795a64d85bf642dba9bd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a17fef4c871ba97b8319535e3d3fee') in 0.019024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Model/HQP STUDIOS/Food Pack - Low Poly Sweets/Prefabs/Candies/Chocolates/Dark_Chocolate_Bar_3.prefab
+  artifactKey: Guid(aed1d4ddc6dd581468a0e5c81f145f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/HQP STUDIOS/Food Pack - Low Poly Sweets/Prefabs/Candies/Chocolates/Dark_Chocolate_Bar_3.prefab using Guid(aed1d4ddc6dd581468a0e5c81f145f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa495b3abd1ae508deb022319f03026') in 0.012078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Model/HQP STUDIOS/Food Pack - Low Poly Sweets/Prefabs/Candies/Chocolates/Milk_Chocolate_2.prefab
+  artifactKey: Guid(35426dfb1b92bbe4a99561031ff5c0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/HQP STUDIOS/Food Pack - Low Poly Sweets/Prefabs/Candies/Chocolates/Milk_Chocolate_2.prefab using Guid(35426dfb1b92bbe4a99561031ff5c0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be60511196373dc9242e9b812e96c210') in 0.015027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.295 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.421 seconds
+Domain Reload Profiling: 715ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (178ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (421ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (231ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Script is not up to date after domain reload: guid(551257c8494afe5439b425caa2499f8e) path("Assets/Script/PlayerMovement.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3472 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.2 KB). Loaded Objects now: 3965.
+Memory consumption went from 136.2 MB to 136.2 MB.
+Total: 2.036000 ms (FindLiveObjects: 0.158800 ms CreateObjectMapping: 0.046500 ms MarkObjects: 1.797500 ms  DeleteObjects: 0.032600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.287 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.466 seconds
+Domain Reload Profiling: 753ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (466ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (273ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (214ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3474 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (32.2 KB). Loaded Objects now: 3969.
+Memory consumption went from 136.5 MB to 136.5 MB.
+Total: 1.763300 ms (FindLiveObjects: 0.138500 ms CreateObjectMapping: 0.038400 ms MarkObjects: 1.557300 ms  DeleteObjects: 0.028300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 322.261041 seconds.
+  path: Assets/Loading Games/Toon City Pack/Textures/atm-B-texture.png
+  artifactKey: Guid(f32756579eae143f1a7a528feae659da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Textures/atm-B-texture.png using Guid(f32756579eae143f1a7a528feae659da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd595baf7ff8fe1782198b3d898176380') in 0.056179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Loading Games/Toon City Pack/Textures/speed-limit-texture.png
+  artifactKey: Guid(5d5ff7652f1be4e538b738a972b54d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Textures/speed-limit-texture.png using Guid(5d5ff7652f1be4e538b738a972b54d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee8aa499a9a44bb8eaf809405ae1dba') in 0.016176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Loading Games/Toon City Pack/Textures/basketball-court-floor-texture.png
+  artifactKey: Guid(d194aaadfcf5c4c819cf4e6ee630eba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Textures/basketball-court-floor-texture.png using Guid(d194aaadfcf5c4c819cf4e6ee630eba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4854156124255d1bf57252bde6ac1f4') in 0.014294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Loading Games/Toon City Pack/Textures/clock-tower-texture.png
+  artifactKey: Guid(d140ab39c3a4741b88156d735ef6e868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Textures/clock-tower-texture.png using Guid(d140ab39c3a4741b88156d735ef6e868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f999be164883e596e281286f9ead97d0') in 0.012185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Loading Games/Toon City Pack/Textures/stop sign.png
+  artifactKey: Guid(2f8c1f0c4e3d74c41932afd7811c6297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Textures/stop sign.png using Guid(2f8c1f0c4e3d74c41932afd7811c6297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c219c8e7e155a8e46d0175f46c79f8') in 0.010467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Loading Games/Toon City Pack/Textures/school-texture.png
+  artifactKey: Guid(afbdce0ce6a9f4cd1a4d4efae82142db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Textures/school-texture.png using Guid(afbdce0ce6a9f4cd1a4d4efae82142db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d543a7b5f073eb896242b6d16329c98') in 0.015629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Loading Games/Toon City Pack/Textures/subway-sign-texture.png
+  artifactKey: Guid(7f22cbb73196b45a78e3da726a6c981e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Textures/subway-sign-texture.png using Guid(7f22cbb73196b45a78e3da726a6c981e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa43cf3168926a96abe14b7892379c50') in 0.010984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Loading Games/Toon City Pack/Textures/cinema-poster-texture-C.png
+  artifactKey: Guid(4374fd123584e4da3bbf753a2bef887b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Textures/cinema-poster-texture-C.png using Guid(4374fd123584e4da3bbf753a2bef887b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7990f03794bcf8c6be7efa1101b3deea') in 0.012308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Loading Games/Toon City Pack/Textures/road-sign-texture-B.png
+  artifactKey: Guid(21b2fc26717624da181a78ac63521ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Textures/road-sign-texture-B.png using Guid(21b2fc26717624da181a78ac63521ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5db0c5866b5014813344a5dd152798') in 0.014544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Loading Games/Toon City Pack/Textures/no-parking-texture.png
+  artifactKey: Guid(3af3bc0666ade4921a2021c84409a6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Textures/no-parking-texture.png using Guid(3af3bc0666ade4921a2021c84409a6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642c679994927b8fb31cd9f950143c94') in 0.013297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Loading Games/Toon City Pack/Textures/bank-texture.png
+  artifactKey: Guid(e1e2d72f608cc4b73a01f0343a4a647f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Textures/bank-texture.png using Guid(e1e2d72f608cc4b73a01f0343a4a647f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231ea2c64f35e1371d52579b9512fe7f') in 0.013733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Loading Games/Toon City Pack/Textures/hotel-texture.png
+  artifactKey: Guid(cbf0290a9de59492b993ab387f0a77ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Textures/hotel-texture.png using Guid(cbf0290a9de59492b993ab387f0a77ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f615ee94fd91b80921d814dee094f099') in 0.011456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Loading Games/Toon City Pack/Textures/police-station-heliport-texture.png
+  artifactKey: Guid(9a709d91efe6a449bb25baed8e43fc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Textures/police-station-heliport-texture.png using Guid(9a709d91efe6a449bb25baed8e43fc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d58dcecec96b615b8faa05a7a7224b') in 0.011924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Loading Games/Toon City Pack/Textures/hot-dog-texture-B.png
+  artifactKey: Guid(9b57e827bb1db4409b846eaf780ec1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Textures/hot-dog-texture-B.png using Guid(9b57e827bb1db4409b846eaf780ec1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0dbf5fa9828116c07f45f24cf79891a') in 0.012197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Loading Games/Toon City Pack/Textures/taxi-texture.png
+  artifactKey: Guid(889fd47abb211495e8716e719b1c16d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Textures/taxi-texture.png using Guid(889fd47abb211495e8716e719b1c16d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d33a972c93db8d6bfa8883bdf25bf4c') in 0.011971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.255605 seconds.
+  path: Assets/Loading Games/Toon City Pack/Prefabs/Buildings/Civil Buildings/cb-apartment-D.prefab
+  artifactKey: Guid(c003e24639b7949cf8abbaaf6ba7f4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Prefabs/Buildings/Civil Buildings/cb-apartment-D.prefab using Guid(c003e24639b7949cf8abbaaf6ba7f4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470083778c2b8a53042f024eae78eb1a') in 0.036593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Loading Games/Toon City Pack/Prefabs/Buildings/Civil Buildings/suburban-house-E.prefab
+  artifactKey: Guid(7e1e1e5641b7b430e9cff12b237d76cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Prefabs/Buildings/Civil Buildings/suburban-house-E.prefab using Guid(7e1e1e5641b7b430e9cff12b237d76cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3b985625740a29c82ac740daa673a2') in 0.011323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Loading Games/Toon City Pack/Prefabs/Buildings/Civil Buildings/suburban-house-D.prefab
+  artifactKey: Guid(2738b587b9bcf431b89364c9b96631ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Prefabs/Buildings/Civil Buildings/suburban-house-D.prefab using Guid(2738b587b9bcf431b89364c9b96631ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897e44c7d3a42285d1b50a1e83b6aa3a') in 0.016498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Loading Games/Toon City Pack/Prefabs/Buildings/Civil Buildings/suburban-house-A.prefab
+  artifactKey: Guid(10d98aad7ab824bc7835210e42e32f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Prefabs/Buildings/Civil Buildings/suburban-house-A.prefab using Guid(10d98aad7ab824bc7835210e42e32f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5f4785fe2df43942b51dd67069265f') in 0.019008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Loading Games/Toon City Pack/Prefabs/Buildings/Civil Buildings/cb-apartment-J.prefab
+  artifactKey: Guid(47eba24edd6844f9ca3ad6953170ab1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Prefabs/Buildings/Civil Buildings/cb-apartment-J.prefab using Guid(47eba24edd6844f9ca3ad6953170ab1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109d34ff194e43b1fc6a5962ac8c57c6') in 0.012212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
