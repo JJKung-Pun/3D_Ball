@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 0;
     public TextMeshProUGUI ScoreText;
     public TextMeshProUGUI WinText;
+    public TextMeshProUGUI LoseText;
 
     private Rigidbody rb;
     private int score;
@@ -21,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
 
         SetScoreText();
         WinText.gameObject.SetActive(false);
+        LoseText.gameObject.SetActive(false);
         
     }
 
@@ -40,6 +42,10 @@ public class PlayerMovement : MonoBehaviour
         {
             WinText.gameObject.SetActive(true);
         }
+        else if (score <= -1)
+        {
+            LoseText.gameObject.SetActive(true);
+        }
     }
 
     private void FixedUpdate()
@@ -57,10 +63,12 @@ public class PlayerMovement : MonoBehaviour
 
             SetScoreText() ;
         }
-        if (other.gameObject.CompareTag("UnPickup"))
+        else if (other.gameObject.CompareTag("UnPickup"))
         {
             other .gameObject.SetActive(false);
             score--;
+
+            SetScoreText();
         }
     }
 }
